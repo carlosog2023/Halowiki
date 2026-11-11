@@ -1,0 +1,358 @@
+* /*Esto ayuda acomodar la pagina quedando intacto como el background cover y sizen*/
+{
+    text-decoration: none;
+    font-family: "genos", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Azul
+{
+    background-color: rgba(0, 0, 255, 0.37);
+}
+
+body
+{
+  background-image: url(Fondo\ Halo\ 3.png);
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 100vw;
+  color: #88b0ff;
+}
+
+header 
+{
+    
+    color: #88b0ff;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+nav
+{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+nav li 
+{
+    list-style: none;
+}
+
+
+.genos {
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color:white;
+}
+
+a
+{
+    color: #fdfdfd;
+}
+
+nav ul a .genos
+{
+    color:white;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: bold;
+
+    background-color: rgba(0, 51, 0, 0.675);
+}
+
+nav li a:hover:not(.active) 
+{
+    color:white;
+    transition: 0.2s;
+    font-size: 16px;
+    
+}
+
+.active {
+  color: #fdfdfd;
+  text-decoration: underline;
+}
+
+
+
+.BlocNav
+{
+    background-image: linear-gradient(rgb(31, 49, 103), rgb(45, 50, 71));
+    display: flex;
+    gap: 50px;
+    border-radius: 5px;
+    position: absolute;
+    justify-items: center;
+    
+}
+
+
+main
+{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+}
+
+footer
+{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+}
+
+.contendor
+{
+    max-width: 18%;
+    max-height: auto;
+    display: flex;
+    padding-left: 10%;
+    gap: 250%;
+    justify-items: center;
+}
+
+.contendor2
+{
+    display: flex;
+    padding: 15px;
+    justify-items: center;
+}
+
+.contendor3
+{
+    
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px;
+}
+.contendor4
+{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+footer
+{
+    margin: 15px;
+    background-color: #00144c;
+}
+
+.BloqueHistoria
+{
+    background-image: url(FondoHistoria.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    max-width: auto;
+    max-width: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.BloqueImportancia
+{
+    background-image: url(FondoImportancia.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.BloqueMedios
+{
+    background-image: url(FondoMedios.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.BloqueCameos
+{
+    background-image: url(FondoCameos.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.BloqueMercancia
+{
+    background-image: url(FondoMercancia.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.BloqueMusica
+{
+    background-image: url(FondoMusica.png);
+    display: flex;
+    border-color: rgb(75, 109, 150);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Bloque
+{
+    background-color: #001858;
+    max-width: 250%;
+    height: 100%;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.bloque2
+{
+    background-color: #00175882;
+    border-color: #5d6c95;
+    padding: 1px;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.Historia
+{
+    width: 250px;
+    height: auto;
+    
+}
+.Importancia
+{
+    width: 225px;
+}
+
+.Medios
+{
+    width: 250px;
+}
+
+.Cameos
+{
+    width: 250px;
+}
+
+.Mercancia
+{
+    width: 250px;
+}
+
+.Musica
+{
+    width: 250px;
+}
+
+.fondo
+{
+    background-image: url(halo-infinite-4k-wallpaper-preview.jpg);
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+h4{
+    color: white;
+}
+
+.logos
+{
+    justify-items: center;
+}
+
+.logo
+{
+    width: 125px;
+}
+
+.logo2
+{
+    width: 100px;
+}
+
+.logo3
+{
+    width: 450px;
+}
+
+.Elemento
+{
+    width: 300px;
+}
+
+@media (max-width: 600px) 
+{
+    .logo
+    {
+        width: 150;
+    }
+
+    .logo3
+    {
+        width: 175px;
+    }
+    .contendor
+    {
+        max-width: 100%;
+        max-height: auto;
+        flex-direction: column;
+        padding: 8px 20px;
+    }
+
+    .contendor2
+    {
+        padding: 8px 20px;
+        flex-direction: column;
+    }
+
+    nav ul a .genos
+{
+    color:white;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 7px;
+    font-weight: bold;
+
+    background-color: rgba(0, 51, 0, 0.675);
+}
+
+nav li a:hover:not(.active) 
+{
+    color:white;
+    transition: 0.2s;
+    font-size: 5px;
+    
+}
+}
